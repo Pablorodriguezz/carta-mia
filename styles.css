@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("img/v882-kul-67-a.jpg") no-repeat center center fixed; /* Imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: auto; /* Permite desplazamiento si es necesario */
+}
+
+.fullscreen img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100vh;
+}
